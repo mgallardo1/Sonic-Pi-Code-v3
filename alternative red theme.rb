@@ -1,12 +1,9 @@
-# Welcome to Sonic Pi v3.1
 charizard = "C:/Users/miguel_gallardo/Documents/Audacity/Charizard.wav"
-trainer_red_notes = [:Eb3, :G3,:Bb3, :E3, :B3]
+trainer_red_notes = [:Eb3,:Bb3, :E3, :B3]
 index = 0
 use_bpm 195
 with_fx :reverb do
-  use_synth :prophet
-  sample charizard
-  sleep 17.54
+  use_synth :piano
   play :Eb4
   play :Bb3
   play :Eb3
@@ -693,15 +690,43 @@ with_fx :reverb do
       play :G3
       play :Eb3
       sleep 2
-      16.times do
-        index = 0
-        print index
-        play trainer_red_notes [index]
+      2.times do
+        play :E4
+        play :B3
+        play :Eb3
         sleep 0.5
-        index = index + 1
-        play trainer_red_notes [index]
+        play :G3
         sleep 0.5
-        print index
+        3.times do
+          play :Eb3
+          sleep 0.5
+          play :G3
+          sleep 0.5
+        end
+      end
+      play :F4
+      play :D4
+      play :Eb3
+      sleep 0.5
+      play :G3
+      sleep 0.5
+      3.times do
+        play :Eb3
+        sleep 0.5
+        play :G3
+        sleep 0.5
+      end
+      play :Gb4
+      play :E4
+      play :Eb3
+      sleep 0.5
+      play :G3
+      sleep 0.5
+      3.times do
+        play :Eb3
+        sleep 0.5
+        play :G3
+        sleep 0.5
       end
       play :E6
       play :G5
@@ -805,8 +830,13 @@ with_fx :reverb do
       sleep 0.5
       play :B3
       sleep 0.5
-      4.times do
-        index = 3
+      play :Eb4
+      play :Eb3
+      sleep 0.5
+      play :G3
+      sleep 0.5
+      3.times do
+        index = 2
         print index
         play trainer_red_notes [index]
         sleep 0.5
@@ -815,6 +845,7 @@ with_fx :reverb do
         sleep 0.5
         print index
       end
+      play :B4
       play :Gb4
       play :Eb3
       sleep 0.5
@@ -830,16 +861,28 @@ with_fx :reverb do
       play :E4
       play :Eb3
       sleep 0.5
-      5.times do
+      play :Bb4
+      play :Eb4
+      play :Eb3
+      sleep 0.5
+      play :G3
+      sleep 0.5
+      3.times do
         index = 0
         print index
         play trainer_red_notes [index]
         sleep 0.5
-        index = index + 2
+        index = index + 1
         play trainer_red_notes [index]
         sleep 0.5
         print index
       end
+      play :Ab4
+      play :D4
+      play :Eb3
+      sleep 0.5
+      play :G3
+      sleep 0.5
       play :D4
       sleep 0.5
       play :E4
@@ -1000,6 +1043,7 @@ with_fx :reverb do
       play :E4
       play :Eb3
       sleep 0.5
+      play :EB4
       play :EB4
       play :B3
       sleep 0.5

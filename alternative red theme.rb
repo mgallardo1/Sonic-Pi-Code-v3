@@ -1,284 +1,182 @@
-charizard = "C:/Users/miguel_gallardo/Documents/Audacity/Charizard.wav"
 trainer_red_notes = [:Eb3,:Bb3, :E3, :B3]
 index = 0
+define :start do
+  play :Eb4
+  play :Bb3
+  play :Eb3
+end
 use_bpm 195
 with_fx :reverb do
-  use_synth :piano
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  use_synth :prophet
+  start
   sleep 2
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 2
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 2
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 1
   play :D4
   play :B3
   play :E3
   sleep 1
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 0.5
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 1.5
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 0.5
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 1.5
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 0.5
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 1.5
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 0.5
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 0.5
   play :B4
   play :Eb4
   play :Bb3
   sleep 1
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 0.5
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 1.5
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 0.5
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 1.5
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 0.5
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 1.5
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 0.5
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 0.5
   play :B4
   play :Eb4
   play :B3
   sleep 1
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 0.5
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 1.5
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 0.5
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 1.5
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 0.5
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 1.5
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 0.5
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 0.5
   play :Db5
   play :Eb4
   play :B3
   sleep 1
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 0.5
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 0.5
   play :Bb4
   play :Eb4
   play :Bb3
   sleep 1
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 0.5
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 0.5
   play :B4
   play :Eb4
   play :B3
   sleep 1
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 0.5
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 0.5
   play :Bb4
   play :Eb4
   play :Bb3
   sleep 1
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 0.5
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 0.5
   play :D4
   play :B3
   play :D3
   sleep 1
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 0.5
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 0.5
   play :Bb4
   play :Eb4
   play :Bb3
   sleep 1
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 0.5
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 0.5
   play :B4
   play :Eb4
   play :B3
   sleep 1
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 0.5
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 0.5
   play :Bb4
   play :Eb4
   play :Bb3
   sleep 1
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 0.5
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 0.5
   play :F4
   play :Eb4
   play :Ab3
   sleep 1
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 0.5
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 0.5
   play :Bb4
   play :Eb4
   play :Bb3
   sleep 1
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 0.5
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 0.5
   play :B4
   play :Eb4
   play :B3
   sleep 1
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 0.5
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 0.5
   play :Bb4
   play :Eb4
   play :Bb3
   sleep 1
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 0.5
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 0.5
   play :D4
   play :B3
   play :D3
   sleep 1
-  play :Eb4
-  play :Bb3
-  play :Eb3
+  start
   sleep 0.5
   play :Eb4
   play :Bb3
@@ -446,8 +344,8 @@ with_fx :reverb do
       play :E4
       play :B3
       sleep 0.5
-      play :Bb4
-      play :A4
+      play :B4
+      play :Ab4
       play :E3
       sleep 0.5
       play :C4
@@ -891,114 +789,114 @@ with_fx :reverb do
       sleep 0.5
       play :E3
       sleep 0.5
-      play :E4
-      play :B3
+      play :Eb4
+      play :Bb3
       play :Eb3
       sleep 0.5
-      play :E4
-      play :B3
-      play :A3
+      play :Eb4
+      play :Bb3
+      play :Ab3
       sleep 0.5
       play :Bb4
-      play :E4
+      play :Eb4
       play :Eb3
       sleep 0.5
-      play :A3
+      play :Ab3
       sleep 0.5
-      play :E4
-      play :B3
-      play :Eb3
-      sleep 0.5
-      play :E4
-      play :B3
-      play :A3
-      sleep 0.5
-      play :B3
-      play :E4
-      play :Eb3
-      sleep 0.5
-      play :A3
-      sleep 0.5
-      play :E4
+      play :Eb4
       play :Bb3
       play :Eb3
       sleep 0.5
-      play :E4
+      play :Eb4
       play :Bb3
-      play :A3
+      play :Ab3
+      sleep 0.5
+      play :B4
+      play :Eb4
+      play :Eb3
+      sleep 0.5
+      play :Ab3
+      sleep 0.5
+      play :Eb4
+      play :Bb3
+      play :Eb3
+      sleep 0.5
+      play :Eb4
+      play :Bb3
+      play :Ab3
       sleep 0.5
       play :Bb4
-      play :E4
+      play :Eb4
       play :Eb3
       sleep 0.5
-      play :A3
+      play :Ab3
       sleep 0.5
-      play :E4
+      play :Eb4
       play :Bb3
       play :Eb3
       sleep 0.5
-      play :E4
+      play :Eb4
       play :Bb3
-      play :A3
+      play :Ab3
       sleep 0.5
       play :A4
-      play :E4
+      play :Eb4
       play :Eb3
       sleep 0.5
-      play :A3
+      play :Ab3
       sleep 0.5
-      play :E4
+      play :Eb4
       play :Bb3
       play :Eb3
       sleep 0.5
-      play :E4
+      play :Eb4
       play :Bb3
-      play :A3
+      play :Ab3
       sleep 0.5
       play :Bb4
-      play :E4
+      play :Eb4
       play :Eb3
       sleep 0.5
-      play :A3
+      play :Ab3
       sleep 0.5
-      play :E4
-      play :B4
+      play :Eb4
+      play :Bb3
       play :Eb3
       sleep 0.5
-      play :E4
-      play :B4
-      play :A3
+      play :Eb4
+      play :Bb3
+      play :Ab3
       sleep 0.5
       play :B4
-      play :E4
+      play :Eb4
       play :Eb3
       sleep 0.5
-      play :A3
+      play :Ab3
       sleep 0.5
-      play :E4
+      play :Eb4
       play :C4
       play :Eb3
       sleep 0.5
-      play :E4
+      play :Eb4
       play :C4
-      play :B3
+      play :Bb3
       sleep 0.5
       play :Db5
-      play :Gb4
+      play :Bb4
       play :Eb3
       sleep 0.5
-      play :B3
+      play :Bb3
       sleep 0.5
-      play :E4
+      play :Eb4
       play :C4
       play :Eb3
       sleep 0.5
-      play :E4
+      play :Eb4
       play :C4
-      play :B3
+      play :Bb3
       sleep 0.5
       play :D5
-      play :Ab3
+      play :Ab4
       play :B3
       sleep 0.5
       play :Bb3
@@ -1100,5 +998,6 @@ with_fx :reverb do
       play :A3
       sleep 0.5
     end
+    stop
   end
 end
